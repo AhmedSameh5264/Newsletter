@@ -1,0 +1,168 @@
+@font-face {
+  font-family: Bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Italic;
+  src: url(../fonts/Roboto-Italic.ttf);
+}
+body {
+  width: 70%;
+  margin: 7% auto;
+  background-color: hsl(235, 18%, 26%);
+  overflow-x: hidden;
+
+}
+.mainSec {
+  background: #fff;
+  border-radius: 1.6875rem;
+}
+.mainSec h1 {
+  font-family: Bold;
+  color: hsl(234, 29%, 20%);
+  font-size: 3.1875rem;
+}
+.mainSec p {
+  font-family: Italic;
+  color: hsl(234, 29%, 20%);
+  padding-top: 0.3125rem;
+}
+.mainSec i {
+  padding-right: 0.8125rem;
+  font-size: 1rem;
+  color: orangered;
+}
+
+.mainSec ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: Italic;
+  color: hsl(234, 29%, 20%);
+}
+.mainSec li {
+  padding-top: 0.3125rem;
+}
+label {
+  font-size: 0.75rem;
+  display: inline-block;
+  padding-bottom: 0.3125rem;
+  font-family: Bold;
+  width: 62%;
+}
+.mainSec form {
+  margin-top: 8%;
+}
+.mainSec button {
+  width: 95%;
+  padding: 4%;
+  border-radius: 0.3125rem;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: #fff;
+  margin-top: 6%;
+}
+.mainSec button:hover {
+  background: rgb(255, 84, 120);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 84, 120, 1) 40%,
+    rgba(255, 101, 71, 1) 62%
+  );
+}
+.maininput {
+  width: 95%;
+  padding: 3%;
+  border-radius: 4px;
+  border: 1px solid #00000044;
+  padding-left: 0.8125rem;
+  color: hsl(234, 29%, 20%);
+}
+:focus {
+  outline: 1px solid #000;
+}
+::placeholder {
+  font-size: 1rem;
+}
+
+.formcol {
+  padding: 10% 7%;
+}
+form span {
+  font-size: 0.75rem;
+  color: red;
+}
+.mainSec img {
+  width: 94%;
+  margin: 5% 0%;
+}
+.inputerror {
+  color: red;
+  outline: 1px solid red;
+  border: 1px solid #fff;
+}
+
+.accept {
+  display: none;
+}
+
+.aftersec {
+  display: none;
+}
+.go {
+  display: block;
+}
+
+.aftersec {
+  background: #fff;
+  border-radius: 27px;
+  width: 48%;
+  margin: 24% auto;
+}
+.maincolsec2 {
+  padding: 8% 12%;
+}
+.maincolsec2 h2 {
+  font-size: 3.1875rem;
+  color: hsl(234, 29%, 20%);
+  font-family: Bold;
+  padding: 5% 0%;
+  line-height: 52px;
+}
+.maincolsec2 img {
+  width: 45px;
+  padding-bottom: 3%;
+}
+.maincolsec2 p {
+  width: 96%;
+  font-family: Italic;
+}
+.maincolsec2 p span {
+  font-family: Bold;
+}
+.maincolsec2 button {
+  width: 100%;
+  padding: 4%;
+  border-radius: 5px;
+  border: none;
+  background-color: hsl(234, 29%, 20%);
+  color: #fff;
+  margin-top: 6%;
+}
+.maincolsec2 button:hover {
+  background: rgb(255, 84, 120);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 84, 120, 1) 40%,
+    rgba(255, 101, 71, 1) 62%
+  );
+}
+.myimg {
+  background: url(../images/illustration-sign-up-desktop.svg);
+  width: 94%;
+  height: 38em;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 6% 0%;
+}
